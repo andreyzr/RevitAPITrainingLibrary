@@ -61,6 +61,7 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Info.cs" />
     <Compile Include="PipesUtils.cs" />
     <Compile Include="SelectionUtils.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
