@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace RevitAPITrainingLibrary
 {
-    public class WallUtils
+    public class WallTools
     {
         public static List<WallType> GetWallTypes(ExternalCommandData commandData)
         {
