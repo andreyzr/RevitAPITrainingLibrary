@@ -11,7 +11,7 @@ namespace RevitAPITrainingLibrary
 {
     public class DuctTools
     {
-        public static List<DuctType> GetWallTypes(ExternalCommandData commandData)
+        public static List<DuctType> GetDuctTypes(ExternalCommandData commandData)
         {
             UIApplication uiapp = commandData.Application;
             UIDocument uidoc = uiapp.ActiveUIDocument;
