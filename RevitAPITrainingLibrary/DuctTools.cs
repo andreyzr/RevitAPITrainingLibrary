@@ -25,5 +25,20 @@ namespace RevitAPITrainingLibrary
             return ductTypes;
         }
 
+        public static List<MechanicalSystemType> GetSystemType(ExternalCommandData commandData)
+        {
+            UIApplication uiapp = commandData.Application;
+            UIDocument uidoc = uiapp.ActiveUIDocument;
+            Document doc = uidoc.Document;
+
+            List<MechanicalSystemType> sysTypes = new FilteredElementCollector(doc)
+                                                        .OfClass(typeof(MechanicalSystemType))
+                                                        .Cast<MechanicalSystemType>()
+                                                        .ToList();
+
+            return sysTypes;
+        }
+
+
     }
 }
