@@ -74,6 +74,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="ScheduleUtils.cs" />
     <Compile Include="TagsUtils.cs" />
     <Compile Include="SelectionUtils.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
